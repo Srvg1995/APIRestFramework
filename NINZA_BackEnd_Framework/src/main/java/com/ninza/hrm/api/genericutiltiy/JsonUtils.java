@@ -32,7 +32,7 @@ public class JsonUtils {
       * @param xmlXpath
       * @return
       */
-	public String getDataOnXpathPath(Response resp, String xmlXpath) {
+	public String getDataOnxmlXPath(Response resp, String xmlXpath) {
 	   return resp.xmlPath().get(xmlXpath);
 	}
 	
